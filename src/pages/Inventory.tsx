@@ -217,9 +217,6 @@ const Inventory = () => {
                       <h3 className="text-xl font-bold text-foreground mb-2">
                         {car.name}
                       </h3>
-                      <p className="text-2xl font-bold text-orange">
-                        {car.price}
-                      </p>
                     </div>
 
                     <div className="grid grid-cols-3 gap-4 mb-4 text-sm">

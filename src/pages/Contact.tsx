@@ -252,6 +252,49 @@ const Contact = () => {
             </div>
           </div>
         </section>
+
+        {/* Google Maps Section */}
+        <section className="py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+                Visit Our Showroom
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Find us easily with our interactive map. We're conveniently located in Ijebu Ode, Ogun State.
+              </p>
+            </div>
+            
+            <div className="rounded-2xl overflow-hidden shadow-card">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.6!2d3.9!3d6.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNDgnMDAuMCJOIDPCsDU0JzAwLjAiRQ!5e0!3m2!1sen!2sng!4v1639000000000!5m2!1sen!2sng"
+                width="100%"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full"
+              ></iframe>
+            </div>
+            
+            <div className="text-center mt-8">
+              <Button variant="hero" size="lg" asChild>
+                <a 
+                  href="https://maps.app.goo.gl/3Zq9HeGBdzEmM6wc6" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center"
+                >
+                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                  </svg>
+                  Open in Google Maps
+                </a>
+              </Button>
+            </div>
+          </div>
+        </section>
       </div>
     </Layout>
   );

@@ -241,9 +241,6 @@ const Index = () => {
                   <h3 className="text-xl font-bold text-foreground mb-2">
                     {car.name}
                   </h3>
-                  <p className="text-2xl font-bold text-orange mb-4">
-                    {car.price}
-                  </p>
                   <div className="flex flex-wrap gap-1 mb-4">
                     {car.features.map((feature, featureIndex) => (
                       <Badge key={featureIndex} variant="secondary" className="text-xs">
