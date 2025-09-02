@@ -18,6 +18,12 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Merlin Auto Cars Custom Variants
+        hero: "bg-gradient-accent text-white hover:shadow-orange transform hover:scale-105 transition-all duration-300 font-semibold shadow-elegant",
+        whatsapp: "bg-green-500 text-white hover:bg-green-600 hover:shadow-lg transform hover:scale-105 transition-all duration-300 font-semibold",
+        navy: "bg-navy text-white hover:bg-navy/90 shadow-elegant",
+        orange: "bg-orange text-white hover:bg-orange-glow shadow-orange",
+        silver: "bg-silver text-navy hover:bg-silver/80",
       },
       size: {
         default: "h-10 px-4 py-2",

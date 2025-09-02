@@ -8,33 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Merlin Auto Cars Brand Colors */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    --foreground: 229 100% 20%; /* Deep Navy Blue #1a237e */
+    
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
+    --card-foreground: 229 100% 20%;
+    
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --popover-foreground: 229 100% 20%;
+    
+    --primary: 229 100% 20%; /* Deep Navy Blue #1a237e */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 0 0% 75%; /* Silver #c0c0c0 */
+    --secondary-foreground: 229 100% 20%;
+    
+    --muted: 215 25% 97%;
+    --muted-foreground: 215 13% 55%;
+    
+    --accent: 33 100% 50%; /* Bright Orange #ff6f00 */
+    --accent-foreground: 0 0% 100%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 215 25% 92%;
+    --input: 215 25% 92%;
+    --ring: 33 100% 50%; /* Orange ring */
+    
+    /* Custom Merlin Colors */
+    --navy: 229 100% 20%; /* #1a237e */
+    --orange: 33 100% 50%; /* #ff6f00 */
+    --silver: 0 0% 75%; /* #c0c0c0 */
+    --orange-glow: 33 100% 60%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--navy)), hsl(var(--navy) / 0.9));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--orange)), hsl(var(--orange-glow)));
+    --gradient-card: linear-gradient(145deg, hsl(var(--background)), hsl(var(--muted)));
+    
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--navy) / 0.2);
+    --shadow-orange: 0 0 30px hsl(var(--orange) / 0.3);
+    --shadow-card: 0 4px 20px hsl(var(--navy) / 0.1);
 
     --radius: 0.5rem;
 
@@ -56,33 +73,33 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --background: 229 100% 8%;
+    --foreground: 0 0% 98%;
+    
+    --card: 229 80% 10%;
+    --card-foreground: 0 0% 98%;
+    
+    --popover: 229 80% 10%;
+    --popover-foreground: 0 0% 98%;
+    
+    --primary: 33 100% 50%; /* Orange in dark mode */
+    --primary-foreground: 229 100% 8%;
+    
+    --secondary: 229 50% 15%;
+    --secondary-foreground: 0 0% 98%;
+    
+    --muted: 229 50% 15%;
+    --muted-foreground: 215 20% 70%;
+    
+    --accent: 33 100% 50%;
+    --accent-foreground: 229 100% 8%;
+    
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 229 50% 15%;
+    --input: 229 50% 15%;
+    --ring: 33 100% 50%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -100,6 +117,50 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans antialiased;
   }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.6s ease-out;
 }
