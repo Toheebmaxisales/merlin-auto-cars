@@ -10,9 +10,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent">
-              MERLIN AUTO CARS
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="Merlin Auto Cars Logo" 
+              className="h-12 w-auto mb-4"
+            />
             <p className="text-gray-300 text-sm">
               Your trusted partner in premium automobiles. We provide quality pre-owned luxury vehicles with 24/7 service in Ijebu Ode, Ogun State.
             </p>
