@@ -12,7 +12,7 @@ const Inventory = () => {
       name: "Lexus RX 350",
       year: "2018",
       price: "₦15,500,000",
-      image: "/lovable-uploads/a420dcef-3960-410a-9b3b-94a37253b511.png", // This will need to be updated with actual paths
+      image: "/lovable-uploads/a420dcef-3960-410a-9b3b-94a37253b511.png",
       fuel: "Petrol",
       transmission: "Automatic",
       mileage: "45,000 km",
@@ -72,6 +72,105 @@ const Inventory = () => {
       transmission: "Automatic",
       mileage: "55,000 km",
       features: ["4MATIC", "Navigation", "Premium Package", "Harman Kardon"]
+    },
+    {
+      id: 7,
+      name: "Lexus ES 350",
+      year: "2012",
+      price: "₦7,800,000",
+      image: "/lovable-uploads/c448e107-dbbb-438a-a0c3-fa8369869118.png",
+      fuel: "Petrol",
+      transmission: "Automatic",
+      mileage: "125,000 km",
+      features: ["Leather Interior", "Premium Sound", "Automatic Climate", "Alloy Wheels"]
+    },
+    {
+      id: 8,
+      name: "Toyota Avalon Limited",
+      year: "2016",
+      price: "₦12,500,000",
+      image: "/lovable-uploads/a05fb795-6b44-4234-8787-58563a08313a.png",
+      fuel: "Petrol",
+      transmission: "Automatic",
+      mileage: "68,000 km",
+      features: ["Premium Leather", "JBL Sound", "Navigation", "Heated Seats"]
+    },
+    {
+      id: 9,
+      name: "Toyota Highlander",
+      year: "2018",
+      price: "₦16,200,000",
+      image: "/lovable-uploads/6ded1d45-cbc6-4512-a3f0-f9f641aa477a.png",
+      fuel: "Petrol",
+      transmission: "Automatic",
+      mileage: "52,000 km",
+      features: ["AWD", "Third Row", "Safety Sense", "Premium Audio"]
+    },
+    {
+      id: 10,
+      name: "Toyota Camry SE",
+      year: "2013",
+      price: "₦5,900,000",
+      image: "/lovable-uploads/6dfd4033-c52d-41ad-8eb1-5ff7a5c381ba.png",
+      fuel: "Petrol",
+      transmission: "Automatic",
+      mileage: "112,000 km",
+      features: ["Sport Package", "Alloy Wheels", "Fog Lights", "Power Seats"]
+    },
+    {
+      id: 11,
+      name: "Mercedes-Benz GLE 43 AMG",
+      year: "2019",
+      price: "₦28,500,000",
+      image: "/lovable-uploads/279aa306-c3b0-4391-b6d2-57e66ca04176.png",
+      fuel: "Petrol",
+      transmission: "Automatic",
+      mileage: "35,000 km",
+      features: ["AMG Performance", "Air Suspension", "Premium Interior", "Bang & Olufsen"]
+    },
+    {
+      id: 12,
+      name: "Lexus ES 350",
+      year: "2014",
+      price: "₦9,200,000",
+      image: "/lovable-uploads/f4067959-0f12-491e-a27f-92dd8aa8cec4.png",
+      fuel: "Petrol",
+      transmission: "Automatic",
+      mileage: "89,000 km",
+      features: ["Mark Levinson Audio", "Navigation", "Backup Camera", "Heated Seats"]
+    },
+    {
+      id: 13,
+      name: "Lexus RX 350",
+      year: "2009",
+      price: "₦6,500,000",
+      image: "/lovable-uploads/fa32b0be-600e-423e-a394-9a13ce06f326.png",
+      fuel: "Petrol",
+      transmission: "Automatic",
+      mileage: "165,000 km",
+      features: ["AWD", "Premium Audio", "Power Tailgate", "Leather Seats"]
+    },
+    {
+      id: 14,
+      name: "Toyota Camry",
+      year: "2011",
+      price: "₦4,800,000",
+      image: "/lovable-uploads/cbb77027-12dd-4b7b-bf9c-1659bce20ae0.png",
+      fuel: "Petrol",
+      transmission: "Automatic",
+      mileage: "138,000 km",
+      features: ["Power Windows", "AC", "CD Player", "Cruise Control"]
+    },
+    {
+      id: 15,
+      name: "Lexus RX 350",
+      year: "2010",
+      price: "₦7,200,000",
+      image: "/lovable-uploads/f9cd6af8-e7a8-4816-b465-dd638a013d46.png",
+      fuel: "Petrol",
+      transmission: "Automatic",
+      mileage: "148,000 km",
+      features: ["AWD", "Premium Package", "Navigation", "Backup Camera"]
     }
   ];
 

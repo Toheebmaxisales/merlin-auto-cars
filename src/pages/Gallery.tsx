@@ -68,6 +68,69 @@ const Gallery = () => {
       title: "Mercedes-Benz GLK - Compact Luxury",
       category: "mercedes",
       description: "Compact luxury redefined"
+    },
+    {
+      id: 10,
+      url: "/lovable-uploads/c448e107-dbbb-438a-a0c3-fa8369869118.png",
+      title: "Lexus ES 350 - Executive Sedan",
+      category: "lexus",
+      description: "Refined luxury and comfort"
+    },
+    {
+      id: 11,
+      url: "/lovable-uploads/a05fb795-6b44-4234-8787-58563a08313a.png",
+      title: "Toyota Avalon Limited - Premium",
+      category: "toyota",
+      description: "Luxury redefined for the discerning"
+    },
+    {
+      id: 12,
+      url: "/lovable-uploads/6ded1d45-cbc6-4512-a3f0-f9f641aa477a.png",
+      title: "Toyota Highlander - Family SUV",
+      category: "toyota",
+      description: "Space, comfort, and reliability"
+    },
+    {
+      id: 13,
+      url: "/lovable-uploads/6dfd4033-c52d-41ad-8eb1-5ff7a5c381ba.png",
+      title: "Toyota Camry SE - Sporty Sedan",
+      category: "toyota",
+      description: "Performance meets practicality"
+    },
+    {
+      id: 14,
+      url: "/lovable-uploads/279aa306-c3b0-4391-b6d2-57e66ca04176.png",
+      title: "Mercedes-Benz GLE 43 AMG",
+      category: "mercedes",
+      description: "AMG performance and luxury"
+    },
+    {
+      id: 15,
+      url: "/lovable-uploads/f4067959-0f12-491e-a27f-92dd8aa8cec4.png",
+      title: "Lexus ES 350 - Luxury Sedan",
+      category: "lexus",
+      description: "Sophisticated elegance"
+    },
+    {
+      id: 16,
+      url: "/lovable-uploads/fa32b0be-600e-423e-a394-9a13ce06f326.png",
+      title: "Lexus RX 350 - Premium SUV",
+      category: "lexus",
+      description: "Luxury meets versatility"
+    },
+    {
+      id: 17,
+      url: "/lovable-uploads/cbb77027-12dd-4b7b-bf9c-1659bce20ae0.png",
+      title: "Toyota Camry - Reliable Choice",
+      category: "toyota",
+      description: "Dependable luxury for every journey"
+    },
+    {
+      id: 18,
+      url: "/lovable-uploads/f9cd6af8-e7a8-4816-b465-dd638a013d46.png",
+      title: "Lexus RX 350 - Luxury SUV",
+      category: "lexus",
+      description: "Premium comfort and style"
     }
   ];
 
